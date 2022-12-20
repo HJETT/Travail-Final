@@ -1,23 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 .main {
     background-image: url(../images/accueil/sky.jpg);
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
 }
+
 .mainContainer {
     margin-left: 80px;
     margin-top: 30px;
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
 .imgSide {
     height: 400px;
     width: 200px;
     border-radius: 50px;
 }
+
 .imgFooter {
     height: auto;
     width: 100%;
 }
+
 .container {
     width: 700px;
     height: auto;
@@ -27,9 +32,11 @@
     font-family: 'Fjalla One', sans-serif;
     text-align: justify;
 }
+
 h1 {
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
+
 p {
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }

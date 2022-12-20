@@ -5,21 +5,24 @@
     width: auto;
     padding: 15px;
 }
+
 .title {
     font-family: 'PT Sans', sans-serif;
     font-size: 3em;
     text-align: center;
     font-weight: bolder;
 }
+
 .months {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin-left: 80px;
     margin-top: 40px;
     padding-bottom: 50px;
 }
-.month{
+
+.month {
     height: 250px;
     background-image: url(../images/calendrier/calendarbackground.webp);
     background-size: 500px;
@@ -29,6 +32,7 @@
     border-radius: 70px;
     border: 2px solid black;
 }
+
 .monthTitle {
     width: 100%;
     font-size: 1.5em;
@@ -38,25 +42,28 @@
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
 }
+
 .daysOfWeek {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(7, 1fr);
-    color:rgb(86, 81, 81);
+    color: rgb(86, 81, 81);
     text-align: center;
     padding: 0px 10px 10px 10px;
     font-family: 'Raleway', sans-serif;
     gap: 5px;
     font-weight: bolder;
 }
+
 .daysContainer {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(7, 1fr);
-    color:rgb(84, 81, 81);
+    color: rgb(84, 81, 81);
     text-align: center;
     row-gap: 8px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
+
 .holiday {
     color: rgb(230, 230, 70);
 }
