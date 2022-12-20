@@ -60,8 +60,3 @@
 .holiday {
     color: rgb(230, 230, 70);
 }
-@media screen and (min-width:800px) {
-    .menuText {
-        display: block;
-    }
-}

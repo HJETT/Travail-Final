@@ -41,8 +41,3 @@ li {
 ul {
     padding-left: 480px;
 }
-@media screen and (min-width:800px) {
-    .menuText {
-        display: block;
-    }
-}

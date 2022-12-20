@@ -55,8 +55,8 @@
 .menuBuffer {
     height: 100px;
 }
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1400px) {
     .menuText {
-        display: block;
+        display: inline-block;
     }
 }

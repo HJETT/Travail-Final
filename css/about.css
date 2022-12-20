@@ -59,8 +59,3 @@ html{
 a:hover .github {
     opacity: 60%;
 }
-@media screen and (min-width:800px) {
-    .menuText {
-        display: block;
-    }
-}
