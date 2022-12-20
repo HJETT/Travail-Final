@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
+@import url('../images/equipe/BeastBall.png');
 html {
     background-image: url(../images/equipe/equipe.png);
     background-repeat: no-repeat;
