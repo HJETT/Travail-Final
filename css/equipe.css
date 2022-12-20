@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+html {
+    background-image: url(../images/equipe/equipe.png);
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-size: cover;
+}
+audio {
+    width: 100px;
+    opacity: 10%;
+}
+.pokeBigContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:220px;
+
+}
+.pokeContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 150px;
+}
+.ball {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.pokemon {
+    width: 200px;
+}
+.name {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 10px;
+}
+.textContainer {
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.515);
+    margin: 30px auto 30px auto;
+    padding: 20px 20px 0px 20px;
+    text-align: justify;
+    border-radius: 20px;
+}
+p {
+    padding-bottom: 20px;
+    font-family: 'PT Sans';
+}
+@media screen and (min-width:800px) {
+    .menuText {
+        display: block;
+    }
+}

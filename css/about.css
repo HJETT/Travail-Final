@@ -1,0 +1,66 @@
+html{
+    background-image: url(../images/about/aboutmebackground.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.main {
+    height: auto;
+}
+.contentAuthor{
+    display:grid;
+    grid-template-columns: 1fr ;
+    background: rgba(255, 255, 255, 0.532);
+    width: 300px;
+    height: auto;
+    margin: 50px auto 50px auto ;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.authorPhoto {
+    background-image: url("../images/about/profile.jpg");
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 250px;
+    margin: 0px auto 10px auto;
+    border: 3px solid white;
+}
+.authorName {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.3em;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.clgLogo{
+    background-image: url("../images/about/CLG.png");
+    width: 70px;
+    height: 70px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px auto 0px auto;
+}
+.github {
+    background-image: url("../images/about/github.png");
+    height: 64px;
+    width: 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px auto 10px auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+a:hover .github {
+    opacity: 60%;
+}
+@media screen and (min-width:800px) {
+    .menuText {
+        display: block;
+    }
+}

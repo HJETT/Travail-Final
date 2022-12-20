@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+html{
+    background-image: url(../images/2022/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 1200px;
+}
+.main {
+    background-image: url(../images/2022/2022.webp);
+    background-repeat: no-repeat;  
+    background-size: contain;
+    background-position: center;
+    height: 900px;
+}
+.videoContainer {
+    margin: 5px auto auto auto;
+    width: 800px;
+    height: 500px;
+}
+.textContainer {
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.712);
+    margin: 20px auto 220px auto;
+    padding: 20px 20px 0px 20px;
+    border-radius: 30px;
+}
+p {
+    font-family: 'PT sans', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+@media screen and (min-width:800px) {
+    .menuText {
+        display: block;
+    }
+}

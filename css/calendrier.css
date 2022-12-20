@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+.calenderContainer {
+    width: auto;
+    padding: 15px;
+}
+.title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bolder;
+}
+.months {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 80px;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+.month{
+    height: 250px;
+    background-image: url(../images/calendrier/calendarbackground.webp);
+    background-size: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    border-radius: 70px;
+    border: 2px solid black;
+}
+.monthTitle {
+    width: 100%;
+    font-size: 1.5em;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+.daysOfWeek {
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    color:rgb(86, 81, 81);
+    text-align: center;
+    padding: 0px 10px 10px 10px;
+    font-family: 'Raleway', sans-serif;
+    gap: 5px;
+    font-weight: bolder;
+}
+.daysContainer {
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    color:rgb(84, 81, 81);
+    text-align: center;
+    row-gap: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.holiday {
+    color: rgb(230, 230, 70);
+}
+@media screen and (min-width:800px) {
+    .menuText {
+        display: block;
+    }
+}

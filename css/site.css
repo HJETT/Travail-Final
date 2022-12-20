@@ -1,0 +1,26 @@
+html {
+    background: linear-gradient( #6be4f99a,#ffffffc5)
+}
+.main {
+    margin: auto;
+    max-width: 1400px;
+    height: auto;
+    background-repeat: no-repeat;
+}
+.siteIcon {
+    background-image: URL('../images/icon.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+}
+.content p {
+    text-align: justify;
+}
+@media screen and (min-width:800px) {
+    .menuText {
+        display: block;
+    }
+}

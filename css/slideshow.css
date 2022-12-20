@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+  
+}
+.fading {
+    animation: fading 8s infinite
+}
+@keyframes fading {
+    0% {opacity: 0}
+    20% {opacity: 1}
+    80% {opacity: 1}
+    100% {opacity: 0}
+}
+.main {
+    background-image: url(../images/slideshow/slideshowbackground.jpg);
+    background-size:initial;
+    background-position: center;
+    height: 1000px;
+}
+.slideshow {
+    margin:auto
+    
+}
+.slide {
+    width: 50%;
+    max-height:500px;
+    border-radius: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+li {
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+}
+ul {
+    padding-left: 480px;
+}
+@media screen and (min-width:800px) {
+    .menuText {
+        display: block;
+    }
+}

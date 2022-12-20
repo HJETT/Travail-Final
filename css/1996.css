@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+html{
+    background: linear-gradient(rgb(238, 33, 33), rgb(58, 58, 233));
+}
+.main {
+    background-image: url(../images/1996/redandblue.jpg);
+    background-repeat: no-repeat;  
+    background-size: contain;
+    background-position: 60%;
+    height: 1000px;
+}
+.videoContainer {
+    margin: 30px auto 30px auto;
+    width: 800px;
+    height: 380px;
+}
+.textContainer {
+    width: 800px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.712);
+    margin: 0px auto 0px auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+@media screen and (min-width:800px) {
+    .menuText {
+        display: block;
+    }
+}
